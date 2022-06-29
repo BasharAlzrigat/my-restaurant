@@ -10,21 +10,21 @@
 ## what we are providing here ?
 
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bottle-water.svg" width="20" height="20"> **bottle of water**
----
+
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bowl-rice.svg"
 width="20" height="20">
 **Bowl of Rice**
----
+
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bowl-food.svg"
 width="20" height="20">
 **Bowl of Monkey's Brain**
----
+
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/burger.svg"
 width="20" height="20">**Triple Cheese Burger**
----
+
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/regular/heart.svg"
 width="20" height="20">~~Healthy Food.~~
----
+
 <br><br/>
 ## Our Awesome Menu:
 <style>
