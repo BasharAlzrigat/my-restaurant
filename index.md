@@ -80,7 +80,7 @@ tr:nth-child(even) {
 
 ---
 
-###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://gist.github.com/BasharAlzrigat) | made with love ♥
+###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | made with love ♥
 
 
 
