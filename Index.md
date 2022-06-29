@@ -33,11 +33,15 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+#removed {
+  text-decoration: line-through;
+}
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
@@ -49,29 +53,31 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Meal</th>
+    <th>calories</th>
+    <th>Price $</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>bottle of water</td>
+    <td>0</td>
+    <td>1$
+</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Bowl of Rice</td>
+    <td>150</td>
+    <td>5$
+</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>Bowl of Monkey's Brain</td>
+    <td>500000</td>
+    <td>free</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+    <td id = removed>Healthy Food</td>
+    <td>2500</td>
+    <td>free</td>
   </tr>
   <tr>
     <td>Laughing Bacchus Winecellars</td>
@@ -84,6 +90,7 @@ tr:nth-child(even) {
     <td>Italy</td>
   </tr>
 </table>
+
 ---
 
 ###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://gist.github.com/BasharAlzrigat) | made with love ♥
