@@ -29,7 +29,7 @@ width="20" height="20">~~Healthy Food.~~
 ## Our Awesome Menu:
 <style>
   body {
-  background-image: url("https://i.ibb.co/DQJXWDq/fast-food-seamless-pattern-restaurant-or-cafe-vector-26486544.jpg");
+  background-image: url("https://as2.ftcdn.net/v2/jpg/01/23/60/75/1000_F_123607533_bz5eNfSfHXoQ20Bxp69Vi3Ok14HSD9Be.jpg");
   background-repeat: repeat-x;
 }
 
