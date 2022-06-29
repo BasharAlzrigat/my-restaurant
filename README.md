@@ -30,4 +30,4 @@ width="20" height="20">~~Healthy Food.~~
 | Triple Cheese Burger | free |
 | ~~Healthy Food.~~ | 999$ |
 ---
-###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://gist.github.com/BasharAlzrigat) | made with love ♥
+###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | made with love ♥
