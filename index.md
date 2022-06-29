@@ -45,7 +45,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  background-color:#595959;
+  
 }
 #removed {
   text-decoration: line-through;
@@ -56,6 +56,7 @@ td, th {
   text-align: left;
   padding: 8px;
   text-align: center;
+  background-color:#595959;
 }
 
 tr:nth-child(even) {
