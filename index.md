@@ -25,7 +25,7 @@ width="20" height="20">**Triple Cheese Burger**
 - <img id=white src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/regular/heart.svg"
 width="20" height="20">~~Healthy Food.~~
 
-<br><br/>
+---
 ## Our Awesome Menu:
 <style>
 body {
