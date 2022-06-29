@@ -22,7 +22,7 @@ width="20" height="20">
 - <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/burger.svg"
 width="20" height="20">**Triple Cheese Burger**
 ---
-- ~~<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/regular/heart.svg"
+- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/regular/heart.svg"
 width="20" height="20">~~Healthy Food.~~
 ---
 <br><br/>
