@@ -90,7 +90,7 @@ tr:nth-child(even) {
 
 ---
 
-###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | <p id = made>made with love</p> <p id = love>♥</p>
+###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | <font color="black">made with love</font> <font color="red">♥</font>
 
 
 
