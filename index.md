@@ -31,6 +31,11 @@ width="20" height="20">~~Healthy Food.~~
 body {
   background-color: gray;
 }
+  #made {
+color:black
+}
+  #love
+color:red
 }
 
 table {
@@ -85,7 +90,7 @@ tr:nth-child(even) {
 
 ---
 
-###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | made with love ♥
+###### [Fontawesome 5](https://fontawesome.com/) | [Follow Me](https://github.com/BasharAlzrigat) | <p id = made>made with love</p> <p id = love>♥</p>
 
 
 
