@@ -48,9 +48,6 @@ tr:nth-child(even) {
   background-color: #221f13;
 }
 </style>
-
-<h2>HTML Table</h2>
-
 <table>
   <tr>
     <th>Meal</th>
