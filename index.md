@@ -28,9 +28,9 @@ width="20" height="20">~~Healthy Food.~~
 <br><br/>
 ## Our Awesome Menu:
 <style>
-  body {
-  background-image: url("https://as2.ftcdn.net/v2/jpg/01/23/60/75/1000_F_123607533_bz5eNfSfHXoQ20Bxp69Vi3Ok14HSD9Be.jpg");
-  background-repeat: repeat-x;
+body {
+  background-color: gray;
+}
 }
 
 table {
