@@ -74,7 +74,7 @@ tr:nth-child(even) {
   <tr>
     <td id = removed>Healthy Food</td>
     <td>2500</td>
-    <td>free</td>
+    <td>99999999$</td>
   </tr>
 </table>
 
