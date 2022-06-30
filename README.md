@@ -1,33 +1,21 @@
 
 # **Fat Guy Restaurant**
-## ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9tGDpTx2algrccK9xIJ9g1mnN6C_O58zpg&usqp=CAU)
-##### *welcome to our deadly unhealthy restaurant that will cause you a guaranteed Heart Attack!*
+
+it's a project of a restaurant's homepage.
+
+## Project purposes:
+
 ---
-## what we are providing here ?
-- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bottle-water.svg" width="20" height="20"> **bottle of water**
+
+- **This project was made for learning purposes, it's an assignment (Task 4) for ASAC LTUC.** 
+
 ---
-- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bowl-rice.svg"
-width="20" height="20">
-**Bowl of Rice**
+
+## Project wireframe:
+
 ---
-- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/solid/bowl-food.svg"
-width="20" height="20">
-**Bowl of Monkey's Brain**
----
-- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/burger.svg"
-width="20" height="20">**Triple Cheese Burger**
----
-- <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c/svgs/regular/heart.svg"
-width="20" height="20">~~Healthy Food.~~
----
+
+<img id=white src="Wireframe.png" >
 <br><br/>
-## Our Awesome Menu:
-| Meal | Price $ |
-| ----------- | ----------- |
-| bottle of water |1$ |
-| Bowl of Rice | 5$ |
-| Bowl of Monkey's Brain | free |
-| Triple Cheese Burger | free |
-| ~~Healthy Food.~~ | 999$ |
----
+
 ###### [Fontawesome 5](https://fontawesome.com/) <font color="black">|</font> [Follow Me](https://github.com/BasharAlzrigat) <font color="black">|</font> <font color="black">made with love</font> <font color="red">♥</font>
