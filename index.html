@@ -25,7 +25,7 @@
                 <img src="images/headerlogo.png" src="index.html" alt="Fat Guys Logo">
                 <p>Fat Guys</p>
             </a>
-            <ul>
+            <ul class="header-ul">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#news">Food Menu</a></li>
                 <li><a href="#news">Offers</a></li>
@@ -42,15 +42,14 @@
     <main>
         <section name="main-content">
             <div class="main-content">
-                <span>
+                <span order-button>
                     <p class=first-par>Welcome to our deadly unhealthy restaurant that will cause you a guaranteed Heart
                         Attack!</p>
                     <p>Dear vistor, keep in your mind that if you eat healthy , workout daily and cut the bad habits,
                         you will die healthy!</p>
                     <p>STOP MAKING YOUR DOCTOR EVEN RICHER!!!, Enjoy your money, yourself and your lifetime before it's
                         too late. </p>
-                    <button class="button"><span>ORDER NOW! </span></button>
-                    <p></p>
+                    <button id="order-btn" class="order-now"><span>ORDER NOW!</span></button>
                 </span>
                 <a href="index.html"><img src="images/index-image.gif" alt="Fat Guy Meal"></a>
             </div>
@@ -66,12 +65,51 @@
             </div>
         </section>
     </main>
+    <!-- <hr class="hr-footer"></hr> -->
     <footer>
-        <div class="social-media">
-            <a  href="#facebook"><i class="fa-brands fa-facebook-square"></i></a>
-            <a  href="#instagram"><i class="fa-brands fa-facebook-square"></i></a>
-            <a  href="#twitter"><i class="fa-brands fa-facebook-square"></i></a>
-            <a  href="#google-plus"><i class="fa-brands fa-facebook-square"></i></a>
+        <div class="left-footer">
+            
+            <div class="social-media">
+                <a href="#facebook"><img src="images/social-media-btns/facebook-icon.png"></a>
+                <a href="#instagram"><img src="images/social-media-btns/instagram-icon.png"></a>
+                <a href="#twitter"><img src="images/social-media-btns/twitter-icon.png"></a>
+                <a href="#google-plus"><img src="images/social-media-btns/google-plus-icon.png"></a>
+            </div>
+            <div class="footer-nav">
+                <ul class="footer-ul">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#news">Food Menu</a></li>
+                    <li><a href="#news">Offers</a></li>
+                    <li><a href="#about">About US</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <img src="images/App/App-download-link.png">
+            </div>
+        </div>
+        <div class="vl-footer-1"></div>
+        <div class="right-footer">
+            <div class="contact-info">
+                <div class="address-images">
+                    <a> <img src="images/contact-icons/phone-icon.png"></a>
+                    <a> <img src="images/contact-icons/email-icon.png"></a>
+                    <a> <img src="images/contact-icons/address-icon.png"></a>
+                </div>
+                <div class="address-title">
+                    <p>0777-XXX-XXX</p>
+                    <p>someone.email@domain.com</p>
+                    <p>country, city, st, building 999</p>
+                </div>
+            </div>
+            
+            <div class="google-maps">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="340" height="240" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=jarash&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-to.org"></a><br>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
