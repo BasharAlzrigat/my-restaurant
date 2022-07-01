@@ -1,13 +1,13 @@
 
 # **Fat Guys Restaurant**
 
-it's a project of a restaurant's homepage.
+this project is built using only HTML & CSS, it's a restaurant's website template.
 
-## Project purposes:
+## Project purpose:
 
 ---
 
-- This project was made for learning purposes, it's an assignment (Task 4) for ASAC LTUC.
+- This project was made for learning purposes, it's an assignment (Task 4) for ASAC LTUC, to build a website template using only HTML & CSS.
 
 ---
 
