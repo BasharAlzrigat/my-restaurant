@@ -1,5 +1,35 @@
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 240px;
+    width: 340px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 240px;
+    width: 340px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 body {
     margin: auto;
+
 }
 
 nav {
@@ -12,25 +42,25 @@ nav {
     top: 0;
     width: 100%;
 }
+
 .logo {
     display: flex;
     height: inherit;
     align-items: center;
 }
-.logo:link { text-decoration: none; }
-.logo:visited { text-decoration: none; }
-.logo:hover { text-decoration: none; }
-.logo:active { text-decoration: none; }
+
 
 .logo img {
     height: inherit;
 }
+
 .logo p {
-    
+
     color: rgba(255, 0, 0, 0.692);
     font-size: 25px;
 }
-ul {
+
+.header-ul {
     list-style-type: none;
     margin-right: 50px;
     background-color: #333;
@@ -65,24 +95,26 @@ li a:hover {
     justify-content: space-between;
     margin: 50px;
 }
+
 .main-content a img {
     margin-left: 20px;
     width: 407px;
 
 }
+
 main span p {
-margin: 20px;
-font-size:x-large;
+    margin: 20px;
+    font-size: x-large;
 
 }
+
 .first-par {
     margin: 0;
     font-size: xxx-large;
 }
-.button {
-    vertical-align:middle
-}
-.button {
+
+.order-now {
+    
     display: inline-block;
     border-radius: 4px;
     background-color: #f4511e;
@@ -96,15 +128,17 @@ font-size:x-large;
     cursor: pointer;
     margin: 5px;
   }
-  
-  .button span {
+  #order-btn{
+    vertical-align:middle
+  }
+  .order-now span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+  .order-now span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -113,26 +147,125 @@ font-size:x-large;
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .order-now:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .order-now:hover span:after {
     opacity: 1;
     right: 0;
   }
-  .menu {
+  
+.menu {
     display: flex;
     justify-content: space-evenly;
-  }
-  .menu a {
+}
+
+.menu a {
     width: 20%;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-  .menu img {
+
+.menu img {
     margin: 0;
-max-width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.right-footer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+.footer-nav {
+    display: flex;
+    margin-left: -40px;
+    justify-content: flex-start;
+}
+.footer-nav img {
+    width: 30%;
+}
+.vl-footer-1 {
+    border-left: 6px dashed #2222227a;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 220px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hr-footer {
+    border-top: 6px solid #2222227a;
+    width: 300px;
+}
+.left-footer {
+    display: flex;
+    width: 50%;
+    margin-top: 85px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-media{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media a {
+    margin: auto;
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-ul {
+    list-style-type: none;
+    background-color: #333;
+    display: flex;
+    width: 450px;
+    justify-content: flex-start;
+}
+.google-maps {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.contact-info a  {
+    margin: 0;
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.address-images {
+    margin: 25px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.address-title {
+    margin: 25px 0 25px -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.address-title p{
+    color: white;
+    text-align: center;
 }
