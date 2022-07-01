@@ -5,141 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: auto;
-        }
-
-        nav {
-            float: right;
-
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0px;
-            padding: 10px;
-            overflow: hidden;
-            background-color: #333;
-
-
-        }
-
-        li {
-            float: left;
-
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
-
-        .logo-float {
-            float: left
-        }
-
-        .logo {
-            height: 66px;
-            background: #333;
-        }
-
-        .logo img {
-            max-height: 100%;
-            background: #333;
-        }
-
-        .site-name {
-            margin-top: 25px;
-            margin-left: 15px;
-            float: right;
-            background: #333;
-            vertical-align: bottom;
-            color: rgba(255, 0, 0, 0.692);
-            font-size: 25px;
-        }
-
-        div.header-ad {
-            height: 90px;
-            width: 728;
-            padding-top: 30px
-        }
-
-        .header-ad img {
-            max-height: 100%;
-            margin: auto;
-            display: block;
-        }
-
-        .index-image {
-            height: 300px;
-            width: 500px;
-            float: right;
-            padding-top: 45px
-        }
-
-        .index-image img {
-            max-width: 100%;
-            max-height: 100%;
-            margin: auto;
-            display: block;
-            ;
-        }
-
-        .coming-soon {
-            font-size: xxx-large;
-            margin: auto;
-            display: block;
-            text-align: left;
-            margin-top: 160px;
-        }
-    </style>
-
+    <meta name="description" content="Fat Guys Restaurant Homepage">
+    <meta name="keywords" content="Restaurant, Fat, Guys, FatGuys, FatGuy, Fat-Guy. Fat-Guys">
+    <meta name="author" content="Bashar Alzrigat">
+    <link rel="stylesheet" href="Style/Style.css">
+    <title>Fat Guys Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="images/headerlogo.png">
 </head>
 
 <body>
-    <div class=logo-float>
-        <div class="logo">
-
-            <a href="index.html">
-                <img src="headerlogo.png" src="index.html" alt="Fat Guy Logo">
-                <p class="site-name">Fat Guy</p>
-            </a>
-
-        </div>
-    </div>
-
-    <ul>
+    <header>
         <nav>
-
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="#news">Food Menu</a></li>
-            <li><a href="#news">Offers</a></li>
-            <li><a href="#about">About US</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-
+            <a class="logo" href="index.html">
+                <img src="images/headerlogo.png" src="index.html" alt="Fat Guys Logo">
+                <p>Fat Guys</p>
+            </a>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#news">Food Menu</a></li>
+                <li><a href="#news">Offers</a></li>
+                <li><a href="#about">About US</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
-    </ul>
-    <div class="header-ad">
-        <a href="contact.html"><img src="header-ad.jpg" alt="header ad"></a>
-    </div>
-    <div class="index-image">
-        <a href="index.html"><img src="index-image.jpg" alt="Fat Guy Meal"></a>
+        <!-- Header Advertisment -->
+        <div class="header-ad">
+            <a href="contact.html"><img src="images/header-ad.gif" alt="header ad"></a>
+        </div>
+    </header>
 
-    </div>
-    <div class="index-text">
-        <p class="coming-soon">Coming Soon...</p>
-    </div>
-
+    <main>
+        <section name="main-content">
+            <div class="main-content">
+                <span>
+                    <p class=first-par>Welcome to our deadly unhealthy restaurant that will cause you a guaranteed Heart
+                        Attack!</p>
+                    <p>Dear vistor, keep in your mind that if you eat healthy , workout daily and cut the bad habits,
+                        you will die healthy!</p>
+                    <p>STOP MAKING YOUR DOCTOR EVEN RICHER!!!, Enjoy your money, yourself and your lifetime before it's
+                        too late. </p>
+                    <button class="button"><span>ORDER NOW! </span></button>
+                    <p></p>
+                </span>
+                <a href="index.html"><img src="images/index-image.gif" alt="Fat Guy Meal"></a>
+            </div>
+        </section>
+        <hr>
+        <section name="menu-list">
+            <div class=menu>
+                <a href="index.html"><img id=white src="images/meals/grilled-chicken.png"></a>
+                <a href="index.html"><img id=white src="images/meals/double-burger.webp"></a>
+                <a href="index.html"><img id=white src="images/meals/shawarma.webp"></a>
+                <a href="index.html"><img id=white src="images/meals/Broasted-Chiken.png"></a>
+                <a href="index.html"><img id=white src="images/meals/kabab-plate.png"></a>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

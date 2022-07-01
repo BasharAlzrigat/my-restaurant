@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.logo:link { text-decoration: none; }
+.logo:visited { text-decoration: none; }
+.logo:hover { text-decoration: none; }
+.logo:active { text-decoration: none; }
+
+.logo img {
+    height: inherit;
+}
+.logo p {
+    
+    color: rgba(255, 0, 0, 0.692);
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+    background-color: #333;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.header-ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.main-content a img {
+    margin-left: 20px;
+    width: 407px;
+
+}
+main span p {
+margin: 20px;
+font-size:x-large;
+
+}
+.first-par {
+    margin: 0;
+    font-size: xxx-large;
+}
+.button {
+    vertical-align:middle
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 260px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menu a {
+    width: 20%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .menu img {
+    margin: 0;
+max-width: 100%;
+}
