@@ -24,4 +24,4 @@ it's a project of a restaurant's homepage.
 ---
 
 
-###### [Fontawesome 5](https://fontawesome.com/) <font color="black">|</font> [Follow Me](https://github.com/BasharAlzrigat) <font color="black">|</font> <font color="black">made with love</font> <font color="red">♥</font>
+###### [Fontawesome 6.1.1](https://fontawesome.com/) <font color="black">|</font> [Follow Me](https://github.com/BasharAlzrigat) <font color="black">|</font> <font color="black">made with love</font> <font color="red">♥</font>
