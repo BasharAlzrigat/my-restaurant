@@ -49,6 +49,7 @@ body {
 }
 
 nav {
+    z-index: 1;
     display: flex;
     height: 50px;
     background-color: rgb(51, 51, 51);
@@ -190,9 +191,6 @@ main span p {
     max-width: 100%;
 }
 
-footer {
-
-}
 .upper-footer {
     display: flex;
     justify-content: space-evenly;
