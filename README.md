@@ -11,17 +11,15 @@ this project is built using only HTML & CSS, it's a restaurant's website templat
 
 ---
 
-## Project wireframe:
+## Project wireframe
 
 ---
 
 - *Homepage wireframe:*
 
-
 <img id=white src="images/Wireframe.png" >
 <br><br/>
 
 ---
-
 
 ###### [Fontawesome 6.1.1](https://fontawesome.com/) <font color="black">|</font> [Follow Me](https://github.com/BasharAlzrigat) <font color="black">|</font> <font color="black">made with love</font> <font color="red">♥</font>
