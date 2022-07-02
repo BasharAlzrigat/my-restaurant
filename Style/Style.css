@@ -78,17 +78,25 @@ nav {
 }
 
 .header-ul {
+    height: inherit;
+    overflow: hidden;
     list-style-type: none;
     margin-right: 50px;
     background-color: #333;
     display: flex;
-    width: 500px;
+    width: 560px;
     justify-content: space-between;
-
+}
+.active {
+    
+    background: #f4511e;
 }
 
-
+li {
+height: inherit;
+}
 li a {
+    height: inherit;
     display: block;
     color: white;
     text-align: center;
@@ -358,3 +366,75 @@ main span p {
     color: rgb(228, 5, 5);
 }
 
+/* Contact Page Style Start From Here  */
+
+.contact-body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+input[type=text], select, textarea {
+    border-style: groove;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #f4511e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+    width: 800px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 31px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: groove;
+}
+.contact-subject{
+    height:200px
+}
+.contact-submit {
+    display: flex;
+    flex-direction: column;
+}
+.contact-logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact-logo img {
+    width: 20%;
+    margin-bottom: 50px;
+}
+.contact-logo p {
+    font-size: x-large;
+    margin: 0;
+}
+.contact-logo h1 {
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.container hr {
+    margin-bottom: 50px;
+}
