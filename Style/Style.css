@@ -182,7 +182,7 @@ footer {
 }
 .right-footer {
     display: flex;
-    width: 50%;
+    width: 45%;
     flex-direction: row;
 }
 .footer-nav {
@@ -207,13 +207,14 @@ footer {
 }
 .left-footer {
     display: flex;
-    width: 50%;
-    margin-top: 85px;
+    width: 55%;
+
     flex-direction: column;
     justify-content: space-between;
 }
-.social-media{
-    width: 45%;
+.social-media {
+    width: 60%;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -224,6 +225,45 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.social-media i {
+    position: relative;
+    display: flex;
+    height: 5px;
+    width: 5px;
+    /* overflow: hidden; */
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 0px;
+    /* padding: 20px 20px 20px 20px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.facebook-background-icon {
+    background-color: #3b5999;
+    padding: 20px;
+    border-radius: 20%;
+}
+.instagram-background-icon{
+    background: linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4);
+    padding: 20px;
+    border-radius: 20%;
+
+}
+.twitter-background-icon{
+    background-color: #00acee;
+    padding: 20px;
+    border-radius: 20%;
+}
+.google-plus-background-icon{
+
+    background-color: #DB4437;
+    padding: 20px;
+    border-radius: 20%;
+    
+}
+
 .footer-ul {
     list-style-type: none;
     background-color: #333;
@@ -243,6 +283,8 @@ footer {
     width: 50%;
     display: flex;
     flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
 }
 .contact-info a  {
     margin: 0;
@@ -251,7 +293,7 @@ footer {
     flex-direction: column;
 }
 .address-images {
-    margin: 25px 0 25px 0;
+    margin: 30px 0 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -259,13 +301,20 @@ footer {
 
 
 .address-title {
-    margin: 25px 0 25px -50px;
+    margin: 25px 0 25px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
 .address-title p{
-    color: white;
+    color: #777777;
     text-align: center;
+}
+.contact-info i {
+    font-size: 36px;
+    color: #22222280;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
