@@ -11,14 +11,19 @@ this project is built using only HTML & CSS, it's a restaurant's website templat
 
 ---
 
-## Project wireframe
+## Project wireframe:
 
 ---
 
-- *Homepage wireframe:*
+- ### Homepage wireframe:
 
-<img id=white src="images/Wireframe.png" >
-<br><br/>
+<img id=white src="images/Wireframe-Homepage.png" >
+
+---
+
+- ### Contact Page wireframe:
+
+<img id=white src="images/Wireframe-Contact-page.png" >
 
 ---
 
