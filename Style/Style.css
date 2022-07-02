@@ -238,7 +238,7 @@ main span p {
 }
 .social-media {
     width: 60%;
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -364,6 +364,31 @@ main span p {
 }
 .footer-link a:hover{
     color: rgb(228, 5, 5);
+}
+.left-upper-footer{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+
+}
+
+.footer-fat-guys-logo {
+    margin: 60px auto 0 0;
+    padding: 50px;
+    background-image: url("/images/output-headerlogo.png");
+    filter: opacity(100%);
+
+    background-size: contain;
+    display: flex;
+}
+.footer-git-hub-logo {
+    margin: 62px auto 0px 72px;
+    padding: 60px;
+    background-image: url("/images/output-github-logo.png");
+    filter: opacity(30%);
+    background-size: contain;
+    display: flex;
 }
 
 /* Contact Page Style Start From Here  */
