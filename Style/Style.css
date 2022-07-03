@@ -372,16 +372,35 @@ main span p {
 .footer-logo{
 
 }
-
-/* .footer-fat-guys-logo {
-    margin: 60px auto 0 0;
-    padding: 50px;
-    background-image: url("/images/output-headerlogo.png");
+.small-fat-guys-logo{
+    margin: 0;
+    background: no-repeat;
+    padding: 20px;
+    background-image: url("/my-restaurant/images/headerlogo.png");
     filter: opacity(100%);
 
     background-size: contain;
     display: flex;
-} */
+}
+.small-git-hub-logo{
+    margin: 0;
+    background: no-repeat;
+    padding: 20px;
+    background-image: url("/my-restaurant/images/github-logo.png");
+    filter: opacity(100%);
+    background-size: contain;
+    display: flex;
+}
+
+.output-fat-guys-logo {
+    margin: 0 0 10px 0px;
+    padding: 50px;
+    background-image: url("/my-restaurant/images/output-headerlogo.png");
+    filter: opacity(100%);
+
+    background-size: contain;
+    display: flex;
+}
 .footer-git-hub-logo {
     margin: 62px auto 0px 72px;
     padding: 60px;
@@ -390,6 +409,19 @@ main span p {
     background-size: contain;
     display: flex;
 }
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #f4511e; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 /* Contact Page Style Start From Here  */
 
@@ -425,12 +457,12 @@ input[type=submit]:hover {
 }
 
 .container {
-    width: 800px;
+    width: 500px;
     border-radius: 20px;
     background-color: #f2f2f2;
-    padding: 31px;
+    padding: 30px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     border-style: groove;
 }
@@ -446,11 +478,11 @@ input[type=submit]:hover {
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .contact-logo img {
     width: 20%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .contact-logo p {
     font-size: x-large;
@@ -458,8 +490,8 @@ input[type=submit]:hover {
 }
 .contact-logo h1 {
     font-size: x-large;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 .container hr {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
