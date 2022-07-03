@@ -373,7 +373,7 @@ main span p {
 
 }
 
-.footer-fat-guys-logo {
+/* .footer-fat-guys-logo {
     margin: 60px auto 0 0;
     padding: 50px;
     background-image: url("/images/output-headerlogo.png");
@@ -381,11 +381,11 @@ main span p {
 
     background-size: contain;
     display: flex;
-}
+} */
 .footer-git-hub-logo {
     margin: 62px auto 0px 72px;
     padding: 60px;
-    background-image: url("/images/gitlogo.png");
+    background-image: url("/my-restaurant/images/github-logo.png");
     filter: opacity(30%);
     background-size: contain;
     display: flex;
