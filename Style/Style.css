@@ -385,7 +385,7 @@ main span p {
 .footer-git-hub-logo {
     margin: 62px auto 0px 72px;
     padding: 60px;
-    background-image: url("/images/output-github-logo.png");
+    background-image: url("/images/github-logo.png");
     filter: opacity(30%);
     background-size: contain;
     display: flex;
